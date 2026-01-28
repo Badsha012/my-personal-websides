@@ -1,14 +1,13 @@
 
 
 import './App.css'
-import Navbar from './Component/Navbar'
 
 function App() {
  
 
   return (
     <>
-    <Navbar></Navbar>
+   <h1>My Personal Websides</h1>
 
     
     </>
