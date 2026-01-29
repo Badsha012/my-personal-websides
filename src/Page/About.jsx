@@ -28,7 +28,7 @@ const About = () => {
           </p>
         </motion.div>
 
-        <div className="grid gap-8 lg:grid-cols-12 items-start">
+        <div className="grid gap-2 lg:grid-cols-12 items-start">
           
           {/* Left Side: Bio & Stats (5 Columns) */}
           <motion.div 

@@ -3,6 +3,7 @@ import Root from "../RootLayout/Root";
 import Contact from "../Page/Contact";
 import About from "../Page/About";
 import Skills from "../Page/Skill";
+import Home from "../Page/Home";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
     children:[
         {
             index:true,
-            element:<h1>home</h1>
+            element:<Home></Home>
         },
         {
             path:"/contact",
