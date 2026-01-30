@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
+import Life from "../Component/Life";
 
 export default function PersonalHomePage() {
   const skills = [
@@ -96,27 +97,7 @@ export default function PersonalHomePage() {
       </section>
 
       {/* ABOUT LIFE */}
-      <section className="max-w-6xl mx-auto mt-20">
-        <h2 className="text-3xl font-bold mb-6 text-center">About My Life</h2>
-
-        <div className="bg-slate-900 border border-slate-800 rounded-2xl p-8 text-slate-400 leading-relaxed space-y-4">
-          <p>
-            I am a Computer Science student and aspiring professional
-            developer. I enjoy solving problems, building software, and
-            learning modern technologies.
-          </p>
-
-          <p>
-            My goal is to become a skilled software engineer and work on
-            impactful products that help people and businesses.
-          </p>
-
-          <p>
-            Besides coding, I enjoy learning new skills, exploring
-            technology trends, and improving myself every day.
-          </p>
-        </div>
-      </section>
+      <Life></Life>
 
       {/* LIFE TIMELINE */}
       <section className="max-w-6xl mx-auto mt-20">

@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import portfolioImg from "../assets/portfilo.png";
+import appImg from "../assets/apps.png"
 import { ExternalLink } from "lucide-react";
 
 const projectsData = [
@@ -9,7 +11,7 @@ const projectsData = [
     techStack: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/yourusername/portfolio",
     live: "https://my-portfolio-pied-ten-85.vercel.app/",
-    image: "../assets/portfilo.png",
+    image: portfolioImg,
   },
   {
     title: "App Galary",
@@ -17,7 +19,7 @@ const projectsData = [
     techStack: ["React", "Chart.js", "Node.js", "MongoDB"],
     github: "https://github.com/yourusername/ecommerce-dashboard",
     live: "https://app-galary.vercel.app/",
-    image: "/images/ecommerce.png",
+    image:appImg,
   },
   {
     title: "Social Media App",

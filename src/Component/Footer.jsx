@@ -30,18 +30,18 @@ const Footer = () => {
                 href="mailto:badsha@email.com"
                 className="text-sm hover:text-blue-400 transition"
               >
-                badsha@email.com
+                mdbadshasheikh2022@gmail.com
               </a>
             </div>
 
             <div className="flex gap-4">
-              <a href="https://github.com/your-username" target="_blank" className="hover:text-white transition">
+              <a href="https://github.com/Badsha012" target="_blank" className="hover:text-white transition">
                 <Github size={18} />
               </a>
-              <a href="https://linkedin.com/in/your-username" target="_blank" className="hover:text-white transition">
+              <a href="https://www.linkedin.com/in/md-badsha-sheikh/" target="_blank" className="hover:text-white transition">
                 <Linkedin size={18} />
               </a>
-              <a href="https://facebook.com/your-username" target="_blank" className="hover:text-white transition">
+              <a href="https://web.facebook.com/md.badsha.sheikh.423531/" target="_blank" className="hover:text-white transition">
                 <Facebook size={18} />
               </a>
             </div>

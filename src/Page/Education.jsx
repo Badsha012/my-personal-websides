@@ -12,7 +12,7 @@ import {
 /* ===================== Education Data ===================== */
 const educationData = [
   {
-    year: "2007 – 2011",
+    
     title: "Primary Education",
     institute: "Chulkati Palash Kindergarten",
     icon: BookOpen,
@@ -20,7 +20,7 @@ const educationData = [
       "Started academic journey and completed studies up to Class 4, building the foundation of education.",
   },
   {
-    year: "2012",
+   
     title: "Equivalent Primary Completion Exam",
     institute: "Ranjitpur Secondary School",
     icon: School,
@@ -28,7 +28,7 @@ const educationData = [
       "Successfully passed equivalent primary completion examination.",
   },
   {
-    year: "2013 – 2015",
+    
     title: "Junior School Certificate (JSC)",
     institute: "Chulkati Ghanshyampur Secondary School",
     icon: School,
@@ -36,7 +36,7 @@ const educationData = [
       "Admitted in Class 6 and successfully passed JSC examination in 2015.",
   },
   {
-    year: "2016 – 2018",
+   
     title: "Secondary School Certificate (SSC) – Science",
     institute: "Chulkati Ghanshyampur Secondary School",
     icon: FlaskConical,
@@ -44,7 +44,7 @@ const educationData = [
       "Continued studies in Science group and successfully completed SSC examination in 2018.",
   },
   {
-    year: "2018 – 2020",
+   
     title: "Higher Secondary Certificate (HSC) – Science",
     institute: "Shipyard School & College",
     icon: GraduationCap,
@@ -52,7 +52,6 @@ const educationData = [
       "Completed Higher Secondary education in Science group and successfully passed in 2020 while developing technical and programming skills.",
   },
   {
-    year: "2022 – Present",
     title: "Bachelor's Degree",
     institute: "City University",
     icon: Building2,
