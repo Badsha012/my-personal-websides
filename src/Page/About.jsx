@@ -75,7 +75,7 @@ const About = () => {
               <h4 className="text-sm font-bold text-slate-500 uppercase tracking-[0.2em] mb-4">Stat Cards</h4>
               <div className="grid grid-cols-3 gap-4">
                 <div className="bg-slate-950/80 p-5 rounded-2xl border border-slate-800 text-center hover:border-blue-500/30 transition-colors">
-                  <h5 className="text-2xl font-bold text-blue-500">5+</h5>
+                  <h5 className="text-2xl font-bold text-blue-500">1+</h5>
                   <p className="text-[10px] text-slate-500 font-bold uppercase">Years Exp.</p>
                 </div>
                 <div className="bg-slate-950/80 p-5 rounded-2xl border border-slate-800 text-center hover:border-blue-500/30 transition-colors">
