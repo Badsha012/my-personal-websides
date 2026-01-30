@@ -135,63 +135,12 @@ export default function PersonalHomePage() {
         </div>
       </section>
 
-      {/* SKILLS */}
-      <section className="max-w-6xl mx-auto mt-20">
-        <h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
+     
+     
 
-        <div className="grid md:grid-cols-2 gap-6">
-          {skills.map((skill, i) => (
-            <div key={i} className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
-              <div className="flex justify-between mb-2">
-                <span>{skill.name}</span>
-                <span>{skill.level}%</span>
-              </div>
-              <div className="w-full bg-slate-800 h-3 rounded-full overflow-hidden">
-                <motion.div
-                  initial={{ width: 0 }}
-                  whileInView={{ width: `${skill.level}%` }}
-                  transition={{ duration: 1 }}
-                  className="h-3 bg-emerald-400"
-                />
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+     
 
-      {/* PROJECTS */}
-      <section className="max-w-6xl mx-auto mt-20">
-        <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          {projects.map((project, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <div className="bg-slate-900 border border-slate-800 rounded-2xl h-full p-6">
-                <h3 className="text-xl font-semibold mb-2">
-                  {project.title}
-                </h3>
-                <p className="text-slate-400">{project.desc}</p>
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
-      {/* CONTACT */}
-      <section className="max-w-4xl mx-auto mt-20 text-center">
-        <h2 className="text-3xl font-bold mb-4">Contact Me</h2>
-        <p className="text-slate-400 mb-6">
-          Want to work together or discuss ideas? Feel free to reach out.
-        </p>
-        <button className="bg-emerald-500 px-8 py-3 rounded-xl font-semibold hover:opacity-90">
-          Send Message
-        </button>
-      </section>
+    
 
     </div>
   );
