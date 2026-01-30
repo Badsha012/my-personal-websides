@@ -1,7 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import portfolioImg from "../assets/portfilo.png";
-import appImg from "../assets/apps.png"
+import appImg from "../assets/apps.png";
+import foodImg from "../assets/texi.png";
+import teaImg from "../assets/tea.png";
+import payoneImg from "../assets/payone.png";
+import foodloverImg from "../assets/foodlover.png"
+
+import englishImg from "../assets/english.png"
 import { ExternalLink } from "lucide-react";
 
 const projectsData = [
@@ -22,36 +28,36 @@ const projectsData = [
     image:appImg,
   },
   {
-    title: "Social Media App",
+    title: "English জানালা",
     description: "Full-stack social media application allowing users to post, like, comment and follow others.",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     github: "https://github.com/yourusername/social-media-app",
-    live: "#",
-    image: "/images/social.png",
+    live: "https://english-janala-rho.vercel.app/",
+    image: englishImg,
   },
   {
-    title: "Chat Application",
+    title: "Foob  Service",
     description: "Real-time chat application with private rooms and emoji support.",
     techStack: ["React", "Socket.io", "Node.js"],
-    github: "#",
-    live: "#",
-    image: "/images/chat.png",
+    github: "https://github.com/Badsha012/texi_burger",
+    live: "https://texi-burger.vercel.app/",
+    image:foodImg ,
   },
   {
-    title: "Task Manager",
+    title: "Tea House",
     description: "Task management application with deadlines, priorities and notifications.",
     techStack: ["React", "Node.js", "MongoDB"],
-    github: "#",
-    live: "#",
-    image: "/images/task.png",
+    github: "https://github.com/Badsha012/tea_house",
+    live: "https://badsha012.github.io/tea_house/",
+    image: teaImg,
   },
   {
-    title: "Blog Platform",
+    title: "Payone Mobile App",
     description: "Full-stack blog platform with Markdown support, comments, and admin panel.",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
-    github: "#",
-    live: "#",
-    image: "/images/blog.png",
+    github: "https://github.com/Badsha012/Payoo_Mobile_App",
+    live: "https://payoo-mobile-app-lyart.vercel.app/",
+    image:payoneImg ,
   },
   {
     title: "Weather App",
@@ -70,12 +76,12 @@ const projectsData = [
     image: "/images/calculator.png",
   },
   {
-    title: "Food Delivery App",
+    title: "Local Food Lovers",
     description: "Food ordering and delivery app with cart, payment and order tracking.",
     techStack: ["React", "Node.js", "MongoDB"],
-    github: "#",
-    live: "#",
-    image: "/images/food.png",
+    github: "https://github.com/Badsha012/Local_Food_Loers_Network_Client_Side",
+    live: "https://soft-speculoos-46237b.netlify.app/",
+    image: foodloverImg,
   },
   {
     title: "Portfolio Admin Panel",
