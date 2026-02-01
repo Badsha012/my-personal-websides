@@ -5,7 +5,8 @@ import appImg from "../assets/apps.png";
 import foodImg from "../assets/texi.png";
 import teaImg from "../assets/tea.png";
 import payoneImg from "../assets/payone.png";
-import foodloverImg from "../assets/foodlover.png"
+import foodloverImg from "../assets/foodlover.png";
+import claImg from "../assets/calcutor.png";
 
 import englishImg from "../assets/english.png"
 import { ExternalLink } from "lucide-react";
@@ -71,9 +72,9 @@ const projectsData = [
     title: "Calculator App",
     description: "Simple calculator application with modern UI and keyboard support.",
     techStack: ["React", "Tailwind CSS"],
-    github: "#",
-    live: "#",
-    image: "/images/calculator.png",
+    github: "",
+    live: "",
+    image:claImg,
   },
   {
     title: "Local Food Lovers",
