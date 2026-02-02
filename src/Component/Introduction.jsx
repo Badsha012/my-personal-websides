@@ -4,9 +4,7 @@ import profileImg from "../assets/badsha.jpg";
 const Introduction = () => {
   return (
     <section className="bg-slate-900 rounded-xl p-6 md:p-10 shadow-lg">
-      <h3 className="text-3xl font-bold text-blue-500 mb-6">
-        Introduction
-      </h3>
+     
 
       <div className="flex flex-col md:flex-row items-center gap-8">
         {/* Profile Image */}

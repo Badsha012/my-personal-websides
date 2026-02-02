@@ -6,9 +6,7 @@ const Educational = () => {
 
   return (
     <section className="bg-slate-900 rounded-xl p-6 md:p-10 shadow-lg">
-      <h3 className="text-3xl font-bold text-blue-500 mb-6">
-        Educational Journey
-      </h3>
+    
 
       <div className="flex flex-col md:flex-row gap-8 items-start">
         {/* Image */}

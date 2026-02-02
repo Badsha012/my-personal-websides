@@ -8,9 +8,7 @@ const Challenges = () => {
 
   return (
     <section className="bg-slate-900 rounded-xl p-6 md:p-10 shadow-lg">
-      <h3 className="text-3xl font-bold text-blue-500 mb-6">
-        Challenges & Lessons
-      </h3>
+     
 
       {/* Images */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
