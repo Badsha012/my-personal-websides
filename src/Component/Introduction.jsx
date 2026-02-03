@@ -50,7 +50,7 @@ const Introduction = () => {
             onClick={() => setReadMore(!readMore)}
             className="mt-4 text-blue-400 hover:text-blue-300 font-medium transition"
           >
-            {readMore ? "Read Less ↑" : "Read More ↓"}
+            {readMore ? "Read Less ▲" : "Read More ▼"}
           </button>
         </div>
       </div>
