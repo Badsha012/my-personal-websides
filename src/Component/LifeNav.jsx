@@ -11,7 +11,7 @@ const LifeNav = () => {
 
   return (
     <div className="hidden lg:block fixed left-6 top-1/2 -translate-y-1/2">
-      <ul className="space-y-4 text-sm font-bold">
+      <ul className="space-y-4 text-sm font-bold text-blue-500">
         {items.map((item) => (
           <li key={item.id}>
             <a
