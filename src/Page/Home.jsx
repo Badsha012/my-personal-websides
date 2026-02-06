@@ -4,6 +4,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import profileImg from "../assets/badsha.jpg";
 import Life from "../Component/Life";
 import CodingProfiles from "../Component/CodingProfiles";
+import Competion from "../Component/Competion";
 
 export default function PersonalHomePage() {
  const timeline = [
@@ -137,6 +138,8 @@ export default function PersonalHomePage() {
 
       {/* code profile */}
       <CodingProfiles></CodingProfiles>
+      {/* competation  */}
+      <Competion></Competion>
       
     </div>
   );
