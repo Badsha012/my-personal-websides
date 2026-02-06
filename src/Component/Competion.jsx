@@ -5,14 +5,14 @@ import { Trophy } from "lucide-react";
 const competitionsData = [
   {
     year: "2024",
-    title: "ICPC Dhaka Regional Contest",
+    title: "ICPC DIU Dhaka Regional Contest",
     organization: "ICPC Asia Dhaka Regional",
     description:
       "Participated as a team competitor solving advanced algorithmic challenges.",
   },
   {
     year: "2025",
-    title: "ICPC Dhaka Regional Contest",
+    title: "ICPC BUBT Dhaka Regional Contest",
     organization: "ICPC Asia Dhaka Regional",
     description:
       "Strengthened competitive programming, problem-solving, and teamwork skills.",
