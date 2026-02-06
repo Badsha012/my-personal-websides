@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
 import profileImg from "../assets/badsha.jpg";
 import Life from "../Component/Life";
+import CodingProfiles from "../Component/CodingProfiles";
 
 export default function PersonalHomePage() {
  const timeline = [
@@ -133,6 +134,10 @@ export default function PersonalHomePage() {
           ))}
         </div>
       </section>
+
+      {/* code profile */}
+      <CodingProfiles></CodingProfiles>
+      
     </div>
   );
 }
