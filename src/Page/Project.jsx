@@ -18,10 +18,9 @@ import englishImg from "../assets/english.png";
 const projectsData = [
   {
     title: "Portfolio Website",
-    description:
-      "Modern animated portfolio built with React and Tailwind.",
+    description: "Modern animated portfolio built with React and Tailwind.",
     techStack: ["React", "Tailwind", "Framer Motion"],
-    github: "https://github.com/Badsha012",
+    github: "https://github.com/Badsha012/my-portfolio",
     live: "https://my-portfolio-pied-ten-85.vercel.app/",
     image: portfolioImg,
   },
@@ -29,7 +28,7 @@ const projectsData = [
     title: "App Gallery",
     description: "Responsive app gallery with clean UI design.",
     techStack: ["React", "Tailwind"],
-    github: "https://github.com/Badsha012",
+    github: "https://github.com/Badsha012/app_galary",
     live: "https://app-galary.vercel.app/",
     image: appImg,
   },
@@ -37,7 +36,7 @@ const projectsData = [
     title: "English Janala",
     description: "Interactive English learning platform.",
     techStack: ["React", "Tailwind"],
-    github: "https://github.com/Badsha012",
+    github: "https://github.com/Badsha012/english_janala",
     live: "https://english-janala-rho.vercel.app/",
     image: englishImg,
   },
@@ -134,20 +133,65 @@ const Project = () => {
               className="group bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden hover:border-blue-500 transition duration-300"
             >
               {/* Image */}
-              <div className="relative">
+              <div className="relative overflow-hidden">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 sm:h-52 object-cover group-hover:scale-105 transition duration-300"
+                  className="w-full h-52 object-cover group-hover:scale-110 transition duration-500"
                 />
 
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 flex items-center justify-center gap-4 transition">
+                {/* Desktop Hover */}
+                <div className="hidden sm:flex absolute inset-0 bg-black/70 opacity-0 group-hover:opacity-100 items-center justify-center gap-4 transition duration-300">
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-white text-black px-3 py-2 rounded-lg text-sm flex items-center gap-1 hover:scale-105 transition"
+                    className="bg-white text-black px-4 py-2 rounded-lg text-sm flex items-center gap-2 hover:scale-105 transition"
+                  >
+                    <Github size={18} /> GitHub
+                  </a>
+
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 px-4 py-2 rounded-lg text-sm flex items-center gap-2 hover:bg-blue-700 hover:scale-105 transition"
+                  >
+                    <ExternalLink size={18} /> Live
+                  </a>
+                </div>
+              </div>
+
+              {/* Content */}
+              <div className="p-5 flex flex-col justify-between h-full">
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 group-hover:text-blue-400 transition">
+                    {project.title}
+                  </h3>
+
+                  <p className="text-slate-400 text-sm mb-4">
+                    {project.description}
+                  </p>
+
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.techStack.map((tech, i) => (
+                      <span
+                        key={i}
+                        className="text-xs bg-slate-800 px-2 py-1 rounded-md"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Mobile Buttons */}
+                <div className="flex gap-3 sm:hidden">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 bg-white text-black py-2 rounded-lg text-sm flex items-center justify-center gap-1"
                   >
                     <Github size={16} /> GitHub
                   </a>
@@ -156,33 +200,12 @@ const Project = () => {
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="bg-blue-600 px-3 py-2 rounded-lg text-sm flex items-center gap-1 hover:bg-blue-700 hover:scale-105 transition"
+                    className="flex-1 bg-blue-600 py-2 rounded-lg text-sm flex items-center justify-center gap-1"
                   >
                     <ExternalLink size={16} /> Live
                   </a>
                 </div>
-              </div>
 
-              {/* Content */}
-              <div className="p-5">
-                <h3 className="text-lg font-semibold mb-2 group-hover:text-blue-400 transition">
-                  {project.title}
-                </h3>
-
-                <p className="text-slate-400 text-sm mb-4">
-                  {project.description}
-                </p>
-
-                <div className="flex flex-wrap gap-2">
-                  {project.techStack.map((tech, i) => (
-                    <span
-                      key={i}
-                      className="text-xs bg-slate-800 px-2 py-1 rounded-md"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
               </div>
             </motion.div>
           ))}
