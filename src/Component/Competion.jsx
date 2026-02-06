@@ -20,7 +20,7 @@ const competitionsData = [
   {
     year: "2024",
     title: "IUPAC DUET Programming Contest",
-    organization: "DUET / IUPc",
+    organization: "DUET / IUPC",
     description:
       "Focused on algorithmic problem solving and optimized coding efficiency.",
   },
